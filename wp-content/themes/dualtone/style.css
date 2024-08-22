@@ -1,0 +1,149 @@
+/*
+Theme Name: DualTone
+Theme URI: https://ballarinconsulting.com/dualtone
+Author: David Ballarin Prunera
+Author URI: https://profiles.wordpress.org/dballari/
+Description: DualTone is a two column layout blog with sticky sidebar on the left, as a tribute to b2/cafelog, the origins of WordPress more than 21 years ago, which is also a two column layout blog. It features a content wide page template for legal text, a blank template for creating any type of content layout and several custom block style variations. With a simple and clean design, it lets your readers focus on your content. Includes two theme styles, one bright (the default one) and the other dark (the futuristic dark style).
+Requires at least: 6.0
+Tested up to: 6.5
+Requires PHP: 5.7
+Version: 0.9.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dualtone
+Tags: blog, two-columns, left-sidebar, block-patterns, block-styles, editor-style, full-site-editing, full-width-template, sticky-post, style-variations, theme-options, threaded-comments, translation-ready, 
+*/
+
+/* Fade in animation
+--------------------------------------- */
+.wp-site-blocks {
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Struture
+--------------------------------------- */
+.wp-site-blocks {
+    max-width: var(--wp--custom--width--max-width);
+    margin: 0 auto;
+}
+
+.wp-block-template-part.empty {
+    margin-block-start: 0;
+}
+
+/* Links
+--------------------------------------- */
+.go-back-link a::before {
+    content: '←';
+    padding-right: 2px;
+}
+.go-top-link a::after {
+    content: '↑';
+}
+a.inactive {
+    pointer-events: none;
+	cursor: default;
+}
+a[target="_blank"]::after {
+    content: "↗";
+}
+a[target="blank"]::after {
+    content: "↗";
+}
+
+
+/* Focusable elements
+--------------------------------------- */
+:is(input, select, textarea, button, a[href]:not([href="##"]), [tabindex]:not([tabindex=-1])):focus-visible {
+    outline: 2px dashed;
+}
+input:focus { 
+    outline: 2px dashed
+}
+
+.site-footer :is(input, select, textarea, button, a[href]:not([href="##"]), [tabindex]:not([tabindex=-1])):focus-visible {
+    outline: 4px dashed;
+}
+
+/* Selection
+--------------------------------------- */
+::-moz-selection,
+::selection {
+    color: var(--wp--custom--color--selection-text);
+    background: var(--wp--custom--color--selection);
+}
+
+/* Form elements
+--------------------------------------- */
+select,
+textarea {
+    background-color: var(--wp--custom--color--forms);
+    border: var(--wp--custom--border--normal) solid var(--wp--custom--color--forms-border) !important;
+    border-radius: 0;
+    color: var(--wp--custom--color--forms-text);
+    font-family: var(--wp--preset--font-family--inter);
+    font-size: var(--wp--preset--font-size--medium);
+    line-height: var(--wp--custom--line-height--medium);
+    padding: 8px;
+    width: 100%;
+}
+
+/* Font weight helper classes
+--------------------------------------- */
+.is-weight-black {
+    font-weight: var(--wp--custom--font-weight--black);
+}
+.is-weight-bold {
+    font-weight: var(--wp--custom--font-weight--bold);
+}
+.is-weight-bolder {
+    font-weight: var(--wp--custom--font-weight--bolder);
+}
+.is-weight-semi-bold {
+    font-weight: var(--wp--custom--font-weight--semi-bold);
+}
+.is-weight-semi-black {
+    font-weight: var(--wp--custom--font-weight--semi-black);
+}
+
+/* Responsive writing mode
+--------------------------------------- */
+.has-responsive-writing-mode .wp-block-post-title {
+    max-width: 670px;
+}
+
+@media screen and (width < 980px) {
+    .has-responsive-writing-mode > .wp-block-group {
+        writing-mode: sideways-rl;
+    }
+    .has-responsive-writing-mode > .wp-block-group p {
+        display: none;
+    }
+}
+
+/* Footer
+--------------------------------------- */
+@media screen and (max-width: 600px) {
+    .footer-credits .is-content-justification-space-between {
+        flex-direction: column-reverse;
+    }
+    .footer-credits p:nth-child(1) {
+        text-align: center;
+    }
+}
+
+/* Navigation
+--------------------------------------- */
+.wp-block-navigation__submenu-container {
+    border-bottom: 1px solid var(--wp--preset--color--contrast) !important;
+}

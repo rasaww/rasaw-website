@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>rasaw</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 20 Aug 2024 19:27:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Fear</title>
+		<link>/fear/</link>
+					<comments>/fear/#respond</comments>
+		
+		<dc:creator><![CDATA[rasaw]]></dc:creator>
+		<pubDate>Tue, 20 Aug 2024 13:29:54 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=56</guid>
+
+					<description><![CDATA[« Do not avoid looking at the thing that terrify you »  Why is that important? Why looking at things that terrify you makes you grow? I do not get it.&#160; Far away from scientific studies, new age personal development bullshit. Just out of me, I do not understand it. Yet I’ve crossed my own fear many&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>« Do not avoid looking at the thing that terrify you » </p>
+
+
+
+<p>Why is that important? Why looking at things that terrify you makes you grow? I do not get it.&nbsp;</p>
+
+
+
+<p>Far away from scientific studies, new age personal development bullshit. Just out of me, I do not understand it. Yet I’ve crossed my own fear many times.</p>
+
+
+
+<p>I am going to put it simply : when you do something that you are afraid of many times, you are then not afraid of it anymore. Let’s say that your body and mind adjust to the fear. You then become what you fear? Or maybe you surpass it. You transcend it.&nbsp;</p>
+
+
+
+<p>But the easiest way to think about it is just that your mind adjust to what you are afraid of and you are then not afraid of that anymore. You discover new things about life. Because if you are not stuck by something you were afraid of then you discover more of life.&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/fear/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The case of AI</title>
+		<link>/the-case-of-ai/</link>
+					<comments>/the-case-of-ai/#respond</comments>
+		
+		<dc:creator><![CDATA[rasaw]]></dc:creator>
+		<pubDate>Tue, 20 Aug 2024 13:19:30 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=48</guid>
+
+					<description><![CDATA[What a mess and misunderstanding]]></description>
+										<content:encoded><![CDATA[
+<p>What a mess and misunderstanding</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/the-case-of-ai/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>More building, less bikeshedding</title>
+		<link>/hello-world/</link>
+					<comments>/hello-world/#comments</comments>
+		
+		<dc:creator><![CDATA[rasaw]]></dc:creator>
+		<pubDate>Tue, 20 Aug 2024 09:02:02 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=1</guid>
+
+					<description><![CDATA[The existence of this website is due to one single Redditor whom I don&#8217;t even remember the pseudonym. But one sentence just struck me when I started researching how to get into web dev and how to start programming : More building, less bikeshedding It seems obvious right? Well, not to me and not to&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p>The existence of this website is due to one single Redditor whom I don&#8217;t even remember the pseudonym. But one sentence just struck me when I started researching how to get into web dev and how to start programming :</p>
+
+
+
+<pre class="wp-block-verse has-large-font-size"> <strong>More building, less </strong><b>bikesheddin</b><strong>g</strong></pre>
+
+
+
+<p>It seems obvious right? Well, not to me and not to many other people that are trying to do something with their life. Bikeshedding is the action of spending unnecessary time on useless question. It&#8217;s spending time doing things that does not matter in order to avoid the real hard thing. It&#8217;s a common mistake that we all do and we are doing it all the time. So, as I was reading this sentence I thought : why don&#8217;t I build a website to share my writing? And then I started building. I used what I know and what was at hand. That&#8217;s why I chose WordPress because it is handy and really easy to use. It might not be the perfect approach, but I have a running website. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/hello-world/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
